@@ -1,0 +1,27 @@
+{
+  "name": "babel.webpack.setting",
+  "version": "1.0.0",
+  "description": "Practive how to set Javascript environment with Babel and Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/js -w -d dist/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninanung/babel.webpack.setting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ninanung/babel.webpack.setting/issues"
+  },
+  "homepage": "https://github.com/ninanung/babel.webpack.setting#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
