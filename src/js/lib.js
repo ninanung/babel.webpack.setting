@@ -1,4 +1,4 @@
-export const pi = Math.pi;
+export const pi = Math.PI;
 
 export function power(x, y) {
     return x ** y;
