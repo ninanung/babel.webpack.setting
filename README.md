@@ -2,6 +2,18 @@
 
 Practive how to set Javascript environment with Babel and Webpack.
 
+## Babel + ES6+
+
+![babel + es6+](https://html5hive.org/wp-content/uploads/2015/12/babel.png.webp)
+
+### .babelrc
+```
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+}
+```
+
 ## Babel + Webpack + ES6 + SASS
 
 ![babel + webpack + es6](https://poiemaweb.com/img/babel-webpack.png)
